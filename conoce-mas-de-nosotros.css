@@ -8,3 +8,7 @@
 #conoce-mas-de-nosotros p{
     margin: 0px;
 }
+#conoce-mas-de-nosotros a{
+    text-decoration: none;
+    width: auto;
+}

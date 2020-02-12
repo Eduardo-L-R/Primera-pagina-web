@@ -8,6 +8,6 @@
 #acerca p{
     margin: 0px;
 }
-#acerca p:nth-child(1){
-    padding-bottom: 40px;
+#acerca a{
+    text-decoration: none;
 }
