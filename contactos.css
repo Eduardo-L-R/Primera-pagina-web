@@ -1,43 +1,61 @@
-#contactos{
-    /* background-image: url(https://cdn.pixabay.com/photo/2019/11/07/20/48/cinema-4609877_960_720.jpg); */
-    /* background-image: url(https://cdn.pixabay.com/photo/2020/02/02/13/23/lagoon-4812995_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
-    height: 100%;
+#contacto1 a:nth-child(1){
+    margin: 0px;
+    text-decoration: none;
+    width: auto;
 }
-#contactos p{
+#contacto1 a:nth-child(1) p{
     margin: 0px;
 }
-#contactos a{
-    text-decoration: none;
-}
-#contenedor-contacto, #contacto{
+#contenedor-contacto{
     display: flex;
     align-items: center;
     justify-content: center;
-
+}
+#contacto1{
+    background-color: #333333;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    border-bottom: solid 4px #6c7570;
 }
 #contacto{
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    padding-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 #borderbox{
-    border: 1px solid black;
+    border: 7px solid rgb(83, 83, 83);
     display: inline-block;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 50px;
+    background: repeating-linear-gradient( 0deg, red, red 30px, white 0px, white 60px)
+    /* ,repeating-linear-gradient( 90deg, red, red 5px, white 5px, white 10px) */
+    ;
 }
-
+#borderbox h3{
+    color: white;
+    background-color: #235ece;
+    border-radius: 25px;
+    width: 179px;
+    text-align: center;
+    border: solid 4px #6c7570;
+}
 .fab{
     font-size: 30px;
 }
 
 #boton-contacto{
+    color: white;
     padding: 10px;
-    background-color: chartreuse;
+    background-color: #07ff07;
     border-radius: 25px;
     text-decoration: none;
 }
 #boton-contacto:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 textarea {
@@ -52,6 +70,18 @@ textarea {
     align-items: center;
     justify-content: center;
 }
+#derecha p{
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+    background-color: #235ece;
+    border-radius: 25px;
+    padding: 5px;
+    border: solid 4px #6c7570;
+}
+#derecha textarea{
+    margin-top: 5px;
+}
 #izquierda{
     margin: 10px;
     display: flex;
@@ -62,5 +92,6 @@ textarea {
 }
 footer{
     margin: 20px;
-    align-items: center;
+    margin-right: 0px;
+    align-self: center;
 }

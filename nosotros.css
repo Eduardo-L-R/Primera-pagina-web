@@ -1,13 +1,60 @@
 #nosotros{
     /* background-image: url(https://cdn.pixabay.com/photo/2019/11/07/20/48/cinema-4609877_960_720.jpg); */
-    background-image: url(https://cdn.pixabay.com/photo/2020/02/02/13/23/lagoon-4812995_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
     height: 100%;
+    background-color: #333333;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    border-bottom: solid 2px #6c7570;
 }
+
 #nosotros p{
     margin: 0px;
 }
 #nosotros a{
     text-decoration: none;
+}
+#nosotros1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#nosotros1 .nosotros1-contenido{
+    padding: 30px;
+    border-radius: 20px;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    align-self: center;
+    border: solid 2px #6c7570;
+}
+#nosotros1 h3{
+    color: white;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+#nosotros1 p{
+    color: white;
+}
+#nosotros1 section{
+    align-self: center;
+    flex-basis: 100px;
+    height: auto;
+    flex-shrink: 1;
+    padding: 40px;
+    border: solid 2px #6c7570;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nosotros1 img{
+    width: auto;
+    height: 100%;
 }
