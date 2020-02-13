@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #proyectos-destacados{
     /* background-image: url(https://cdn.pixabay.com/photo/2019/11/07/20/48/cinema-4609877_960_720.jpg); */
     /* background-image: url(https://cdn.pixabay.com/photo/2020/02/02/13/23/lagoon-4812995_960_720.jpg);
@@ -10,4 +11,9 @@
 }
 #proyectos-destacados a{
     text-decoration: none;
+}
+=======
+#importante{
+    display: flex;
+>>>>>>> miparte
 }
