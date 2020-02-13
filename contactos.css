@@ -14,3 +14,30 @@
 #contenedor-contacto{
     display: flex;
 }
+#borderbox{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 60px;
+}
+
+#boton-contacto{
+    padding: 10px;
+    background-color: chartreuse;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+    margin: 10px;
+}
+
+#derecha{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+  
