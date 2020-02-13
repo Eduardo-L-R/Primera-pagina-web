@@ -14,3 +14,22 @@
 #importante{
     display: flex;
 }
+.izquierda, #menos-importante>.elemento-proyectos:nth-child(1){
+    padding-left: 60px;
+}
+.derecha, #menos-importante>.elemento-proyectos:nth-child(3){
+    padding-right: 60px;
+}
+#importante img{
+    width: 60%;
+}
+#menos-importante, #subtitulo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#menos-importante img{
+    width: 50%;
+}
