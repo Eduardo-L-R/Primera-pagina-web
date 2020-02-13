@@ -15,10 +15,13 @@
     display: flex;
 }
 .izquierda, #menos-importante>.elemento-proyectos:nth-child(1){
-    padding-left: 60px;
+    margin-left: 60px;
 }
 .derecha, #menos-importante>.elemento-proyectos:nth-child(3){
-    padding-right: 60px;
+    margin-right: 60px;
+}
+.elemento-proyectos, .izquierda, .derecha{
+    padding: 10px;
 }
 #importante img{
     width: 60%;
@@ -28,6 +31,10 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+#subtitulo{
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #menos-importante img{
