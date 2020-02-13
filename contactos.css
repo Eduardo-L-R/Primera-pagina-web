@@ -11,14 +11,23 @@
 #contactos a{
     text-decoration: none;
 }
-#contenedor-contacto{
+#contenedor-contacto, #contacto{
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#contacto{
+    margin-bottom: 20px;
 }
 #borderbox{
     border: 1px solid black;
     display: inline-block;
     padding: 5px;
-    margin-left: 60px;
+}
+
+.fab{
+    font-size: 30px;
 }
 
 #boton-contacto{
@@ -50,4 +59,8 @@ textarea {
 }
 #izquierda input{
     margin-bottom: 5px;
+}
+footer{
+    margin: 20px;
+    align-items: center;
 }
