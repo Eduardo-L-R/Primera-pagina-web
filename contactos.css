@@ -25,6 +25,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    color: white;
 }
 #borderbox{
     border: 7px solid rgb(83, 83, 83);
