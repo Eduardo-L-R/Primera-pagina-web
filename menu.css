@@ -67,20 +67,28 @@ nav ul li a{
     text-decoration: none;
     color: #6c7570;
 }
-#imagen-logo{
+header #imagen-logo{
     display: flex;
     justify-content: center;
-    width: auto;
+    width: 400px;
     height: auto;
     border: solid 2px #333333;
+    border-radius: 40px;
     margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+header #iamgen-logo a{
+    height: 400px;
+    width: 70%;
 }
 /* No me funciona el hover sobre el div */
-#imagen-logo img{
-    height: auto;
+header #imagen-logo img{
+    height: 100%;
     width: 100%;
 }
-#imagen-logo:hover{
+header #imagen-logo:hover{
     border: solid 2px #6c7570;
     border-radius: 40px;
 }
