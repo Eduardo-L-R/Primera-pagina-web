@@ -4,22 +4,37 @@ body{
 }
 .titulo-flotante{
     position: relative;
+    display: flex;
     top: -15px;
-    width: 180px;
+    width: 400px;
     height: auto;
     font-size: 16px;
     font-weight: bold;
     color: white;
     padding-left: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-right: solid 4px #6c7570;
     border-top: solid 4px #6c7570;
     border-bottom: solid 4px #6c7570;
     background-color: #235ece;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .titulo-flotante:hover{
-    background-color: rgb(212, 212, 19);
+    align-items: center;
+}
+.titulo-flotante:hover::after{
+    position: absolute;
+    left: 170px;
+    background-color: rgb(38, 34, 252);
+    color: white;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    overflow: hidden;
+    content: "Presiona para ajustar.";
 }

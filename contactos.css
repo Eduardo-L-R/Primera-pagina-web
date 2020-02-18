@@ -32,7 +32,7 @@
     display: inline-block;
     border-radius: 20px;
     padding: 50px;
-    background: repeating-linear-gradient( 0deg, red, red 30px, white 0px, white 60px)
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 70%, rgba(0,212,255,1) 100%);
     /* ,repeating-linear-gradient( 90deg, red, red 5px, white 5px, white 10px) */
     ;
 }
