@@ -48,8 +48,15 @@
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.28,.75,.63,.64);
+    transition-delay: 0s;
 }
-
+#funcionamiento1 .funcionamiento-imagenes:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 29px -10px rgba(0,0,0,0.75);
+}
 #funcionamiento1 a{
     width: 100px;
     height: auto;

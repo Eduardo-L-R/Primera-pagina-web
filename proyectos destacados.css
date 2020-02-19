@@ -44,4 +44,14 @@
 
 #menos-importante img{
     width: 50%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.28,.75,.63,.64);
+    transition-delay: 0s;
+    border: solid 4px #333333;
+}
+#menos-importante img:hover{
+    border: solid 4px #6c7570;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 29px -10px rgba(0,0,0,0.75);
 }

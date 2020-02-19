@@ -9,6 +9,10 @@
 #conoce-mas-de-nosotros p{
     margin: 0px;
     width: 350px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.28,.75,.63,.64);
+    transition-delay: 0s;
 }
 #conoce-mas-de-nosotros a{
     text-decoration: none;

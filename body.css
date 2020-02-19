@@ -20,15 +20,19 @@ body{
     background-color: #235ece;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.28,.75,.63,.64);
+    transition-delay: 0s;
 }
 .titulo-flotante:hover{
     align-items: center;
+    background-color: #013aa3;
 }
 .titulo-flotante:hover::after{
     position: absolute;
-    left: 170px;
-    background-color: rgb(38, 34, 252);
-    color: white;
+    right: 0px;
+    color: rgb(184, 179, 179);
     border-radius: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -36,5 +40,5 @@ body{
     padding-right: 5px;
     margin-left: 10px;
     overflow: hidden;
-    content: "Presiona para ajustar.";
+    content: "Presiona para ajustar";
 }

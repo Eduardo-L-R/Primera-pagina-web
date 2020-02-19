@@ -33,6 +33,10 @@ nav div a{
     padding-top: 5px;
     padding-bottom: 6px;
     text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.46,.08,.29,.86);
+    transition-delay: 0s;
 }
 nav div a:hover{
     border-right: solid 2px #6c7570;
@@ -49,13 +53,17 @@ nav ul{
     padding-right: 2%;
     margin: 0px;
 }
-nav ul li:nth-child(n+1){
+nav ul li{
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-left: solid 2px #333333;
     border-right: solid 2px #333333;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.46,.08,.29,.86);
+    transition-delay: 0s;
 }
 nav ul li:hover{
     height: 100%;
@@ -72,12 +80,16 @@ header #imagen-logo{
     justify-content: center;
     width: 400px;
     height: auto;
-    border: solid 2px #333333;
+    border: solid 4px #333333;
     border-radius: 40px;
     margin: 20px;
     margin-left: 20px;
     margin-right: 20px;
     overflow: hidden;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.46,.08,.29,.86);
+    transition-delay: 0s;
 }
 header #iamgen-logo a{
     height: 400px;
@@ -89,6 +101,7 @@ header #imagen-logo img{
     width: 100%;
 }
 header #imagen-logo:hover{
-    border: solid 2px #6c7570;
+    border: solid 4px #6c7570;
     border-radius: 40px;
+    box-shadow: 10px 10px 29px 0px rgba(0,0,0,0.75);
 }
